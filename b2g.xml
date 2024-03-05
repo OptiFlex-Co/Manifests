@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/capyloon/" name="capyloon"/>
+  <remote fetch="https://github.com/OptiFlex-Co/" name="OptiFlex-Co"/>
 
-  <!-- capyloon repos -->
+  <!-- capyloon and OptiFlex repos -->
   <project groups="capyloon" name="api-daemon" path="gonk-misc/api-daemon" remote="capyloon" revision="main"/>
   <project groups="capyloon" name="libsignal-protocol-c"
            path="gonk-misc/api-daemon/support/libsignal-sys/libsignal-protocol-c"
@@ -10,6 +11,6 @@
   <project groups="capyloon" name="gecko-b2g" path="gecko" remote="capyloon" revision="capyloon"/>
   <project groups="capyloon" name="gonk-misc" path="gonk-misc" remote="capyloon" revision="main"/>
   <project groups="capyloon" path="system/sepolicy" name="platform_system_sepolicy" remote="capyloon" revision="capyloon"/>
-  <project groups="capyloon" name="nutria" path="nutria" remote="capyloon" revision="main"/>
+  <project groups="OptiFlex-Co" name="OptiOS-UI" path="OptiOS-UI" remote="OptiFlex-Co" revision="main"/>
 
 </manifest>
